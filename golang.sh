@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Install nginx"
-apt install nginx -y
+apt install -y nginx
 
 echo "Install golang"
-apt install golang -y
+apt install -y \
+  golang
