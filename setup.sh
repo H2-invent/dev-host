@@ -3,7 +3,13 @@
 apt update
 
 echo "Setup java"
-apt install -y openjdk-21-jre -y
+apt install -y \
+  openjdk-21-jre
 
 echo "Setup git and curl"
-apt install git sudo curl wget jq -y
+apt install -y \
+  git \
+  sudo \
+  curl \
+  wget \
+  jq 
