@@ -12,4 +12,6 @@ apt install -y \
   sudo \
   curl \
   wget \
-  jq 
+  jq \
+  htop \
+  iftop
